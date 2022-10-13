@@ -1,0 +1,142 @@
+
+
+body{ 
+background-image: url('mer.png');
+<!--background-color:#005582;-->
+<!--background-color:#084B8A;-->
+padding-top:20px;
+padding-bottom:10px;
+padding-left:40px;
+padding-right:40px;
+font-family: Arial, Helvetica, sans-serif;
+color:black;
+}
+
+div.h{with:$(window).width();}
+
+
+h1{
+color:#0071AC;
+<!--color:white;-->
+font-family:Arial, Helvetica, sans-serif;
+text-align:center;
+font-size: 40px;
+padding:10px;
+background-image: url('mer4.png');
+<!--background-color:#5CC6D3;-->
+<!--background-color:#D3A95C;-->
+<!--background-color:#F5DA81;-->
+}
+
+h2{
+color:#0071AC;
+<!--color:black;-->
+<!--color:#D7DED9;-->
+font-size: 25px; 
+font-family:Arial, Helvetica, sans-serif;
+background-image: url('mer7.png');
+<!--background-color:#0EB2C5;-->
+<!--background-color:#F5DA81;-->
+padding:5px;
+font-weight:lighter;
+text-align:center;
+}
+
+h3{
+background-image: url('mer7.png');
+<!--color:#0EB2C5;-->
+<!--color:#D7DED9;-->
+font-size: 20px; 
+font-family:Arial, Helvetica, sans-serif;
+background-color:inherit
+padding:1px;
+font-weight:lighter;
+text-align:center;
+}
+
+
+p{
+color:#D7DED9;
+<!--color:black;-->
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+}
+
+
+ul{
+font-family: Arial, Helvetica, sans-serif;
+padding-bottom:5px;
+}
+
+li{padding-top:8px;}
+
+a:link{
+color: #D0D6D1;
+background-color:transparent;
+text-decoration:none;
+}
+
+a{
+color: #D0D6D1;
+background-color:transparent;
+text-decoration:none;
+}
+
+
+
+
+* {box-sizing: border-box}
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: none; 
+  background-color: transparent;
+  width: 450px;
+  font-size:20px;
+  height: 600px;
+  margin-left:120px;
+  margin-bottom:10px;
+  <!--color: #D7DED9;-->
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color:#D7DED9;
+  font-size:20px;
+  <!--color: black;-->
+  padding: none;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+background-image: url('mer8.png');
+<!--  background-color: #886A08;-->
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+background-image: url('mer8.png');
+<!--  background-color: #B18904;-->
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  margin-left: 20px;
+  border: none; 
+  width: 800px;
+  font-size:20px;
+  border-left: none;
+  height: 600px;
+  text-align: left;
+}
+
